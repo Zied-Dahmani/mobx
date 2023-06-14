@@ -4,6 +4,7 @@ class Weather{
 
   Weather(this.cityName, this.temperature);
 
+  
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
